@@ -1,0 +1,295 @@
+{
+  "style": {
+    "font-family": "Nunito Sans",
+    "background-color": "#F2F2F2",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#4C8EDA",
+    "border-width": 0,
+    "border-color": "#000000",
+    "radius": 75,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#ffffff",
+    "caption-font-size": 20,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "bare",
+    "label-color": "#ffffff",
+    "label-background-color": "#848484",
+    "label-border-color": "#848484",
+    "label-border-width": 3,
+    "label-font-size": 20,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "above",
+    "detail-orientation": "parallel",
+    "arrow-width": 3,
+    "arrow-color": "#848484",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#848484",
+    "type-background-color": "#F2F2F2",
+    "type-border-color": "#848484",
+    "type-border-width": 0,
+    "type-font-size": 21,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#848484",
+    "property-font-size": 20,
+    "property-font-weight": "normal"
+  },
+  "nodes": [
+    {
+      "id": "n0",
+      "position": {
+        "x": 30.53841692763311,
+        "y": 4.4615830723669205
+      },
+      "caption": "Person",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n1",
+      "position": {
+        "x": 73.22426466983819,
+        "y": -191.28101142392052
+      },
+      "caption": "Passport",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n2",
+      "position": {
+        "x": -213.42504526177925,
+        "y": -327.31717795763495
+      },
+      "caption": "country",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n3",
+      "position": {
+        "x": 532.2377247851254,
+        "y": -191.28101142392052
+      },
+      "caption": "University",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n4",
+      "position": {
+        "x": 379.88964295967276,
+        "y": -455.155629581265
+      },
+      "caption": "Course",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n5",
+      "position": {
+        "x": 532.2377247851254,
+        "y": 202.193021261344
+      },
+      "caption": "Transaction",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n6",
+      "position": {
+        "x": 294.1633178238203,
+        "y": 202.193021261344
+      },
+      "caption": "credit card",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n8",
+      "position": {
+        "x": -231.0677950857983,
+        "y": 155.5
+      },
+      "caption": "Trip",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n9",
+      "position": {
+        "x": 998.7883113371283,
+        "y": -85.63537088548355
+      },
+      "caption": "Company",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n10",
+      "position": {
+        "x": 959.4021264990877,
+        "y": -391.2562916275338
+      },
+      "caption": "Designation",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n11",
+      "position": {
+        "x": 611.414813057786,
+        "y": -588.8267488615845
+      },
+      "caption": "Study_year ",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n12",
+      "position": {
+        "x": 1301.6041965030772,
+        "y": -588.8267488615845
+      },
+      "caption": "Year",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n0",
+      "type": "own",
+      "style": {},
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n1"
+    },
+    {
+      "id": "n2",
+      "type": "study",
+      "style": {},
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n3"
+    },
+    {
+      "id": "n3",
+      "type": "graduated in",
+      "style": {},
+      "properties": {},
+      "fromId": "n3",
+      "toId": "n4"
+    },
+    {
+      "id": "n7",
+      "type": "Taking",
+      "style": {},
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n8"
+    },
+    {
+      "id": "n8",
+      "type": "Work at",
+      "style": {},
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n9"
+    },
+    {
+      "id": "n9",
+      "type": "As",
+      "style": {},
+      "properties": {},
+      "fromId": "n9",
+      "toId": "n10"
+    },
+    {
+      "id": "n10",
+      "type": "citizen of",
+      "style": {},
+      "properties": {},
+      "fromId": "n1",
+      "toId": "n2"
+    },
+    {
+      "id": "n11",
+      "type": "own",
+      "style": {},
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n6"
+    },
+    {
+      "id": "n12",
+      "type": "make",
+      "style": {},
+      "properties": {},
+      "fromId": "n6",
+      "toId": "n5"
+    },
+    {
+      "id": "n13",
+      "type": "duration",
+      "style": {},
+      "properties": {},
+      "fromId": "n4",
+      "toId": "n11"
+    },
+    {
+      "id": "n14",
+      "type": "PERIOD OF SERVICES",
+      "style": {},
+      "properties": {},
+      "fromId": "n10",
+      "toId": "n12"
+    },
+    {
+      "id": "n15",
+      "type": "depature_from",
+      "style": {},
+      "properties": {},
+      "fromId": "n2",
+      "toId": "n8"
+    },
+    {
+      "id": "n16",
+      "type": "Location",
+      "style": {},
+      "properties": {},
+      "fromId": "n4",
+      "toId": "n2"
+    }
+  ]
+}
